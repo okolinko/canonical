@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Helper\Product\View">
+        <plugin name="hunters_cannonical_catalog_helpre_product_view"
+                type="Hunters\Canonical\Plugin\Catalog\Helper\Product\ViewPlugin" />
+    </type>
+</config>
